@@ -1,13 +1,16 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.5",
+	"EngineAssociation": "{0F2821E4-4FA7-7566-D350-D9AED9DA1BAD}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
 		{
 			"Name": "Platformer",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	],
 	"Plugins": [
